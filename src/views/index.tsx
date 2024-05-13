@@ -15,12 +15,12 @@ export default function () {
       </div>
       <div className="footer">
         <div className="flex flex-row">
-          <p className="flex grow items-center text-lg text-gray-500">
+          <p className="flex grow items-center text-md text-gray-500">
             © 2024 Nakhla.ai
           </p>
           <div>
             <a href="https://www.linkedin.com/company/nakhlaai">
-              <img src={LinkedIn} alt="linkedin" width="36" />
+              <img src={LinkedIn} alt="linkedin" width="32" />
             </a>
           </div>
         </div>
