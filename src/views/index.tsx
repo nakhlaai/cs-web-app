@@ -3,7 +3,7 @@ import LinkedIn from "../assets/linkedin.svg";
 
 export default function () {
   return (
-    <div className="flex grow flex-col m-10">
+    <div className="flex grow flex-col p-10">
       <div className="flex grow flex-col items-center justify-center">
         <div>
           <img src={Logo} alt="logo" width="72" />
@@ -19,7 +19,7 @@ export default function () {
             © 2024 Nakhla.ai
           </p>
           <div>
-            <a href="https://www.linkedin.com/company/nakhlaai">
+            <a href="https://www.linkedin.com/company/nakhlaai" target="_blank">
               <img src={LinkedIn} alt="linkedin" width="32" />
             </a>
           </div>
