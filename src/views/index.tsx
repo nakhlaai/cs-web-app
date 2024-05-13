@@ -15,7 +15,7 @@ export default function () {
       </div>
       <div className="footer">
         <div className="flex flex-row">
-          <p className="flex grow items-center text-md text-gray-500">
+          <p className="flex grow items-center text-md text-gray-400">
             © 2024 Nakhla.ai
           </p>
           <div>
