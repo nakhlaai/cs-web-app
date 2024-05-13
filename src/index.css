@@ -17,14 +17,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 #root {
   display: flex;
   min-width: 320px;
@@ -32,16 +24,19 @@ body {
 
 html,
 body {
+  place-items: center;
   padding: 0;
   margin: 0;
   height: 100dvh;
   width: 100dvw;
   position: relative;
+  min-width: 320px;
 }
 
 #root {
   height: 100%;
   width: 100%;
+  position: fixed;
 }
 
 body {
