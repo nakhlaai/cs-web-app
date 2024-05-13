@@ -4,7 +4,7 @@ import LinkedIn from "../assets/linkedin.svg";
 export default function () {
   return (
     <div className="flex grow flex-col">
-      <div className="flex grow flex-col items-center justify-center p-10 pt-40">
+      <div className="flex grow flex-col items-center justify-center p-10 pb-0">
         <div>
           <img src={Logo} alt="logo" width="72" />
         </div>
