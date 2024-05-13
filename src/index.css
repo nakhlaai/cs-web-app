@@ -33,8 +33,8 @@ body {
 html,
 body,
 #root {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgba(255, 255, 255, 0.87);
     background-color: #162e2a;
   }
 }
