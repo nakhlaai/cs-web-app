@@ -31,13 +31,17 @@ body {
 }
 
 html,
-body,
-#root {
+body {
   padding: 0;
   margin: 0;
-  height: calc(100vh - calc(100vh - 100%));
-  width: 100vw;
+  height: 100dvh;
+  width: 100dvw;
   position: relative;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
 }
 
 body {
