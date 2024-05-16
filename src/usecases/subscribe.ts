@@ -14,5 +14,9 @@ export default async function SubscribeUseCase(email: string) {
     body: JSON.stringify(data)
   });
 
+  if (!res.ok) {
+    console.log(await res.text());
+    throw new Error("Subscription failed with unknown error!");
+  }
   return res.ok;
 }
