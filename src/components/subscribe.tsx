@@ -12,8 +12,12 @@ export default function () {
       const data = new FormData(event.currentTarget);
       const email = data.get("email")?.toString();
       if (email) {
-        await SubscribeUseCase(email);
-        setSubscribed(true);
+        try {
+          await SubscribeUseCase(email);
+          setSubscribed(true);
+        } catch (exp) {
+          console.log(exp);
+        }
       }
       setDisabled(false);
     },
