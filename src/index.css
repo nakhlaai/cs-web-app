@@ -27,10 +27,17 @@ body {
   place-items: center;
   padding: 0;
   margin: 0;
-  height: 100dvh;
-  width: 100dvw;
+  min-height: 100dvh;
+  min-width: 100dvw;
   position: relative;
-  min-width: 320px;
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #1f2937;
 }
 
 #root {
@@ -49,5 +56,9 @@ body {
   :root {
     color: rgba(255, 255, 255, 0.87);
     background-color: #162e2a;
+  }
+
+  input {
+    background-color: #e5e7eb;
   }
 }
