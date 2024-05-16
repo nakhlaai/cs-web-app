@@ -28,7 +28,7 @@ export default function () {
     <div className="flex flex-col items-center">
       {!subscribed && (
         <div>
-          <h2 className="text-xl font-light mb-3">Join the movement!</h2>
+          <h2 className="text-xl font-light mb-3">Be the first to know!!</h2>
           <div className="flex items-center justify-center">
             <form onSubmit={onSubmit}>
               <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
