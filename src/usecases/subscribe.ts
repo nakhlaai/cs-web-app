@@ -16,7 +16,7 @@ export default async function SubscribeUseCase(email: string) {
 
   if (!res.ok) {
     console.log(await res.text());
-    throw new Error("Subscription failed with unknown error!");
+    throw new Error("Subscription failed with an unknown error!");
   }
   return res.ok;
 }
