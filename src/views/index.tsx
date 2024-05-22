@@ -7,7 +7,7 @@ export default function () {
     <div className="flex grow flex-col p-10">
       <div className="flex grow flex-col items-center justify-center text-center py-6">
         <div>
-          <img src={Logo} alt="logo" width="72" />
+          <img src={Logo} alt="logo" width="72" height="124.75" />
         </div>
         <p className="text-xl font-light mb-3">
           AI-powered business intelligence platform
