@@ -62,3 +62,14 @@ body {
     background-color: #e5e7eb;
   }
 }
+
+@layer components {
+  .mesh {
+    -webkit-mask-image: radial-gradient(
+      100% 100% at top right,
+      white,
+      transparent
+    );
+    mask-image: radial-gradient(100% 100% at top right, white, transparent);
+  }
+}
