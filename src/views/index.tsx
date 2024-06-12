@@ -1,10 +1,12 @@
 import Logo from "../assets/logo.png";
 import LinkedIn from "../assets/linkedin.svg";
 import Subscribe from "../components/subscribe";
+import HeroBG from "../components/heroBG";
 
 export default function () {
   return (
-    <div className="flex grow flex-col p-10">
+    <div className="relative isolate flex grow flex-col p-10">
+      <HeroBG />
       <div className="flex grow flex-col items-center justify-center text-center py-6">
         <div>
           <img src={Logo} alt="logo" width="72" height="124.75" />
